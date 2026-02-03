@@ -1,6 +1,6 @@
 OIMS - Order Inventory Management Ststem
 
-🏢 OIMS – Online Inventory Management System
+🏢 Order – Online Inventory Management System
 📌 Project Overview
 
 OIMS (Online Inventory Management System) is a full-stack, industry-oriented backend application designed to manage products, categories, stock levels, users, and orders in a scalable and secure manner.
