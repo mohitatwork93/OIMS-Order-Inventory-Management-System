@@ -3,7 +3,15 @@ package com.drawpicaa.oims.dto;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderItemRequestDTO {
 
     @NotNull
@@ -13,21 +21,4 @@ public class OrderItemRequestDTO {
     @Positive
     private Integer quantity;
 
-    public OrderItemRequestDTO() {}
-
-    public Long getProductId() {
-        return productId;
-    }
-
-    public void setProductId(Long productId) {
-        this.productId = productId;
-    }
-
-    public Integer getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
 }
